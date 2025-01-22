@@ -1,0 +1,19 @@
+/* Body styling start */
+.main-body {
+  background-color: #effffd;
+}
+/* Custom scrollbar styling from w3schools */
+/* Width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffdadf;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fffdf0;
+  border-radius: 50px;
+  border: solid #966767;
+}
