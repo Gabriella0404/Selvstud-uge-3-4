@@ -6,20 +6,36 @@
     <title>Produkt</title>
   </head>
   <body>
-    <article class="wrapper">
-      <header class="header">
-        <h1 class="first-heading">Title Placeholder</h1>
-        <h2 class="second-heading">Web link</h2>
-      </header>
-      <section class="marquee-wrapper">
-        <div class="marquee-animation"></div>
-        <a href="index.html">Web link</a>
-      </section>
-      <main class="index-main">
-        <nav class="main-nav"></nav>
-        <section class="introduction"></section>
-        <section class="to-do"></section>
-      </main>
+    <article class="wrapper-outer">
+      <article class="wrapper-inner">
+        <header class="header">
+          <h1 class="first-heading">Title Placeholder</h1>
+          <h2 class="second-heading">Web link</h2>
+        </header>
+        <section class="marquee-wrapper">
+          <div class="marquee-animation"></div>
+          <a href="index.html">Web link</a>
+        </section>
+        <main class="index-main">
+          <nav class="main-nav"></nav>
+          <section class="introduction"></section>
+          <section class="to-do"></section>
+          <section class="playlist-box"></section>
+          <section class="link-scroll">
+            <marquee
+              behaviour="alternate"
+              ;
+              scrollamount="5"
+              style="margin-to p: 10 px"
+              onmouseover="this.stop();"
+              onmouseout="this.start();"
+            >
+            </marquee>
+          </section>
+          <section class="statuscafe"></section>
+        </main>
+        <footer class="index-footer"></footer>
+      </article>
     </article>
   </body>
 </html>
