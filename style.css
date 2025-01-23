@@ -47,7 +47,19 @@
   margin-top: 0px;
   padding: 0.5rem;
 }
+.marquee-wrapper {
+  margin-top: 2rem;
+}
 .marquee-text {
-  background-color: linear-gradient(#d0ffc9 #fff);
   text-decoration: none;
+}
+
+.marquee-text--background {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(208, 255, 201, 1) 100%
+  );
+  padding: 0.3em;
+  border-radius: 30px;
 }
