@@ -5,15 +5,49 @@
 /* Custom scrollbar styling from w3schools */
 /* Width */
 ::-webkit-scrollbar {
-  width: 1rem;
+  width: 1.2rem;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffdadf;
+  background: #ffe8eb;
+  border: solid #ffb5bf;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #fffdf0;
   border-radius: 50px;
   border: solid #966767;
+}
+/* Body styling stop------------------------------------------------------------------ */
+/* Wrapper area */
+.wrapper-inner {
+  background-color: #ffffff;
+  padding: 3rem;
+  margin: 5rem;
+  border-radius: 40px;
+}
+/* Header area */
+.header {
+  background-color: #ffeff2;
+  padding: 1.5rem;
+  border-radius: 60px;
+}
+.header__h1 {
+  font-size: 5rem;
+  color: #f4dbde;
+  -webkit-text-stroke: 1.5px #b17f7f;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0.5rem;
+}
+.header__h2 {
+  font-size: 2rem;
+  color: #b17f7f;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0.5rem;
+}
+.marquee-text {
+  background-color: linear-gradient(#d0ffc9 #fff);
+  text-decoration: none;
 }
