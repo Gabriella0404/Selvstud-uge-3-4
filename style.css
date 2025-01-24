@@ -49,6 +49,7 @@
 }
 .marquee-wrapper {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .marquee-text {
   text-decoration: none;
@@ -62,4 +63,39 @@
   );
   padding: 0.3em;
   border-radius: 30px;
+}
+/* Main area */
+/* Navigation start */
+/* Ornate Div Scroll from pastelhello.com */
+.innerornate::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+.innerornate::-webkit-scrollbar {
+  width: 7px;
+}
+.innerornate::-webkit-scrollbar-thumb {
+  background: #fffdf0;
+  border: solid #966767;
+}
+.innerornate {
+  width: 200px;
+  height: 221px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  color: #102e1c;
+  font-family: Verdana;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  line-height: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.ornatediv {
+  width: 244px;
+  height: 265px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
 }
