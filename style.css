@@ -143,3 +143,9 @@
   border-radius: 50px;
   text-align: center;
 }
+/* To do section */
+.to-do {
+  background-image: url(images_original/stickynote-main.png);
+  height: 384px;
+  width: 384px;
+}
